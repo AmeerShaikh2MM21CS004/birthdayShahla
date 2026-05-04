@@ -141,6 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const openCard = () => {
     isCardOpen = true;
+    
     card.classList.add('is-open');
     document.body.classList.add('card-is-open');
 
